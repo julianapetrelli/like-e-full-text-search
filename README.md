@@ -1,4 +1,4 @@
-# SEARCH AND FULL TEXT 
+# SEARCH LIKE AND FULL TEXT 
 
 ## Utilizando o operador Like
 
@@ -68,7 +68,7 @@ $stmt->execute();
 
 **MATCH:** Uma construção especial usada para realizar uma pesquisa de texto completo em um índice de texto completo. Quando match() é usado em uma cláusula, como no exemplo mostrado anteriormente, **as linhas devolvidas são automaticamente classificadas com a maior relevância primeiro**. Valores de relevância são números de pontos flutuantes não negativos. Nenhuma relevância significa nenhuma semelhança. **A relevância é calculada com base no número de palavras na linha (documento), no número de palavras únicas na linha, no número total de palavras na coleção e no número de linhas que contêm uma palavra específica**. 
 
-Conteúdo de pesquisa:
+Conteúdo da pesquisa:
 
 ```sql
 INSERT INTO posts (title, body) VALUES
